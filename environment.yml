@@ -1,0 +1,24 @@
+name: project
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - tensorflow 
+  - pip
+  - tensorboardX=1.6
+  - nltk=3.4
+  - python=3.7
+  - jupyter=1.0.0
+  - pandas=0.23.4
+  - pytorch=1.0.1
+  - spacy=2.0.18
+  - torchvision=0.2.1
+  - scikit-learn=0.20.1
+  - pip:
+    - gym==0.12.0
+    - numpy==1.16.2
+    - pip==19.0.3
+    - plac==0.9.6
+    - git+https://github.com/drozzy/text.git
+    - pytorch-ignite==0.1.2
