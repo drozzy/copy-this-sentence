@@ -1,5 +1,13 @@
 # Copy this sentence
 
+## Results
+
+To view the results run tensorboard:
+
+    tensorboard --logdir runs
+    
+and access http://localhost:6006
+
 ## Authors
 Andriy Drozdyuk & Vasileios Lioutas
 
