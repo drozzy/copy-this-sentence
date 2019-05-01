@@ -1,5 +1,11 @@
 # Copy this sentence
 
+## Setup
+
+To setup the necessary dependencies, use the provided conda environment file:
+
+    conda env create -f environment.yml
+    
 ## Results
 
 To view the results run tensorboard:
